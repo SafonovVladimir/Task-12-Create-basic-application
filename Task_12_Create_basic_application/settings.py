@@ -15,16 +15,16 @@ DEBUG = True
 # ALLOWED_HOSTS = ['127.0.0.1']
 ALLOWED_HOSTS = []
 
-# INTERNAL_IPS = [
-#     "127.0.0.1",
-# ]
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
 
 # Application definition
 
 INSTALLED_APPS = [
     # 'DjangoGramm'
-    # 'django_extensions',
-    # 'debug_toolbar',
+    'django_extensions',
+    'debug_toolbar',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
